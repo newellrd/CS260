@@ -43,11 +43,12 @@ hr
     background-color: #333;
 }
 
-li {
+nav li
+{
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -55,11 +56,25 @@ li a {
     text-decoration: none;
 }
 
+
+
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
     background-color: #111;
 }
 
-.active {
+nav .active {
     background-color: #4CAF50;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
 }
